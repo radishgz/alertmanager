@@ -3,7 +3,7 @@ FROM  golang:1.6.2
 
 RUN go get github.com/progrium/go-shell
 RUN go get github.com/prometheus/promu
-RUN go get github.com/golang/protobuf
+#RUN go get github.com/golang/protobuf
 RUN go get -u github.com/golang/common
 
 #RUN go get github.com/prometheus/alertmanager/
