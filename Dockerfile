@@ -4,6 +4,7 @@ FROM  golang:1.5.4
 ENV GO15VENDOREXPERIMENT=1 
 RUN go get github.com/progrium/go-shell
 RUN go get github.com/prometheus/promu
+RUN GO15VENDOREXPERIMENT=1 go get github.com/prometheus/alertmanager/
 
 # cd $GOPATH/src/github.com/prometheus/alertmanager
 
