@@ -1,4 +1,4 @@
-FROM  golang:1.6.2
+FROM  golang:1.7.5
 
 
 RUN go get github.com/progrium/go-shell
