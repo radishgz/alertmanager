@@ -2,7 +2,7 @@ FROM  golang:1.5
 
 
 ENV GO15VENDOREXPERIMENT=1 
-go get github.com/prometheus/alertmanager
+RUN go get github.com/prometheus/alertmanager
 # cd $GOPATH/src/github.com/prometheus/alertmanager
 
 #RUN mkdir -p $GOPATH/src/github.com/prometheus \
